@@ -2,13 +2,13 @@
   "numFailedTestSuites": 0,
   "numFailedTests": 0,
   "numPassedTestSuites": 1,
-  "numPassedTests": 1,
+  "numPassedTests": 2,
   "numPendingTestSuites": 0,
   "numPendingTests": 0,
   "numRuntimeErrorTestSuites": 0,
   "numTodoTests": 0,
   "numTotalTestSuites": 1,
-  "numTotalTests": 1,
+  "numTotalTests": 2,
   "openHandles": [],
   "snapshot": {
     "added": 0,
@@ -26,19 +26,19 @@
     "unmatched": 0,
     "updated": 0
   },
-  "startTime": 1592537424564,
+  "startTime": 1592543460161,
   "success": false,
   "testResults": [
     {
       "leaks": false,
       "numFailingTests": 0,
-      "numPassingTests": 1,
+      "numPassingTests": 2,
       "numPendingTests": 0,
       "numTodoTests": 0,
       "openHandles": [],
       "perfStats": {
-        "end": 1592537427856,
-        "start": 1592537424630
+        "end": 1592543467536,
+        "start": 1592543460232
       },
       "skipped": false,
       "snapshot": {
@@ -50,19 +50,31 @@
         "updated": 0,
         "uncheckedKeys": []
       },
-      "testFilePath": "/home/loia5tqd001/Desktop/sPhoneTesting/test/-base-page.test.js",
+      "testFilePath": "/home/loia5tqd001/Desktop/sPhoneTesting/test/google-page.test.js",
       "testResults": [
         {
           "ancestorTitles": [
-            "Signin Functionality"
+            "Searching"
           ],
-          "duration": 2859,
+          "duration": 3929,
           "failureMessages": [],
-          "fullName": "Signin Functionality example",
+          "fullName": "Searching search for \"webdriver\"",
           "location": null,
           "numPassingAsserts": 0,
           "status": "passed",
-          "title": "example"
+          "title": "search for \"webdriver\""
+        },
+        {
+          "ancestorTitles": [
+            "Searching"
+          ],
+          "duration": 2734,
+          "failureMessages": [],
+          "fullName": "Searching search for \"uit\"",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "search for \"uit\""
         }
       ],
       "failureMessage": null
