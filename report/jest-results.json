@@ -26,7 +26,7 @@
     "unmatched": 0,
     "updated": 0
   },
-  "startTime": 1592543460161,
+  "startTime": 1592643640823,
   "success": false,
   "testResults": [
     {
@@ -37,8 +37,8 @@
       "numTodoTests": 0,
       "openHandles": [],
       "perfStats": {
-        "end": 1592543467536,
-        "start": 1592543460232
+        "end": 1592643646573,
+        "start": 1592643640885
       },
       "skipped": false,
       "snapshot": {
@@ -50,31 +50,31 @@
         "updated": 0,
         "uncheckedKeys": []
       },
-      "testFilePath": "/home/loia5tqd001/Desktop/sPhoneTesting/test/google-page.test.js",
+      "testFilePath": "/home/loia5tqd001/Desktop/sPhoneTesting/test/providers-page/add-a-provider.spec.js",
       "testResults": [
         {
           "ancestorTitles": [
-            "Searching"
+            "Add a provider"
           ],
-          "duration": 3929,
+          "duration": 759,
           "failureMessages": [],
-          "fullName": "Searching search for \"webdriver\"",
+          "fullName": "Add a provider redirect to the \"create\" route when click button \"Thêm mới\"",
           "location": null,
           "numPassingAsserts": 0,
           "status": "passed",
-          "title": "search for \"webdriver\""
+          "title": "redirect to the \"create\" route when click button \"Thêm mới\""
         },
         {
           "ancestorTitles": [
-            "Searching"
+            "Add a provider"
           ],
-          "duration": 2734,
+          "duration": 528,
           "failureMessages": [],
-          "fullName": "Searching search for \"uit\"",
+          "fullName": "Add a provider inputs are empty when the \"create\" route first loaded",
           "location": null,
           "numPassingAsserts": 0,
           "status": "passed",
-          "title": "search for \"uit\""
+          "title": "inputs are empty when the \"create\" route first loaded"
         }
       ],
       "failureMessage": null
