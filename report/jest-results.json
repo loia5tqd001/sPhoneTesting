@@ -1,14 +1,14 @@
 {
-  "numFailedTestSuites": 0,
-  "numFailedTests": 0,
-  "numPassedTestSuites": 1,
-  "numPassedTests": 2,
+  "numFailedTestSuites": 1,
+  "numFailedTests": 1,
+  "numPassedTestSuites": 3,
+  "numPassedTests": 22,
   "numPendingTestSuites": 0,
   "numPendingTests": 0,
   "numRuntimeErrorTestSuites": 0,
   "numTodoTests": 0,
-  "numTotalTestSuites": 1,
-  "numTotalTests": 2,
+  "numTotalTestSuites": 4,
+  "numTotalTests": 23,
   "openHandles": [],
   "snapshot": {
     "added": 0,
@@ -26,19 +26,179 @@
     "unmatched": 0,
     "updated": 0
   },
-  "startTime": 1592643640823,
+  "startTime": 1593156195805,
   "success": false,
   "testResults": [
     {
       "leaks": false,
       "numFailingTests": 0,
-      "numPassingTests": 2,
+      "numPassingTests": 5,
       "numPendingTests": 0,
       "numTodoTests": 0,
       "openHandles": [],
       "perfStats": {
-        "end": 1592643646573,
-        "start": 1592643640885
+        "end": 1593156212257,
+        "start": 1593156196157
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "unmatched": 0,
+        "updated": 0,
+        "uncheckedKeys": []
+      },
+      "testFilePath": "/home/loia5tqd001/Desktop/sPhoneTesting/test/sign-in/sign-in.spec.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Sign in"
+          ],
+          "duration": 6498,
+          "failureMessages": [],
+          "fullName": "Sign in Sign in with empty username and password",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Sign in with empty username and password"
+        },
+        {
+          "ancestorTitles": [
+            "Sign in"
+          ],
+          "duration": 2405,
+          "failureMessages": [],
+          "fullName": "Sign in Sign in with wrong username and password",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Sign in with wrong username and password"
+        },
+        {
+          "ancestorTitles": [
+            "Sign in"
+          ],
+          "duration": 2173,
+          "failureMessages": [],
+          "fullName": "Sign in Sign in with username and empty password",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Sign in with username and empty password"
+        },
+        {
+          "ancestorTitles": [
+            "Sign in"
+          ],
+          "duration": 2302,
+          "failureMessages": [],
+          "fullName": "Sign in Sign in with empty username and password",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Sign in with empty username and password"
+        },
+        {
+          "ancestorTitles": [
+            "Sign in"
+          ],
+          "duration": 2228,
+          "failureMessages": [],
+          "fullName": "Sign in Sign in with the right username and password",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Sign in with the right username and password"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 4,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1593156214763,
+        "start": 1593156196107
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "unmatched": 0,
+        "updated": 0,
+        "uncheckedKeys": []
+      },
+      "testFilePath": "/home/loia5tqd001/Desktop/sPhoneTesting/test/providers-page/view-a-provider.spec.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "View a provider"
+          ],
+          "duration": 1556,
+          "failureMessages": [],
+          "fullName": "View a provider has data in table",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "has data in table"
+        },
+        {
+          "ancestorTitles": [
+            "View a provider"
+          ],
+          "duration": 3224,
+          "failureMessages": [],
+          "fullName": "View a provider same id in url after view detail",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "same id in url after view detail"
+        },
+        {
+          "ancestorTitles": [
+            "View a provider"
+          ],
+          "duration": 3346,
+          "failureMessages": [],
+          "fullName": "View a provider same id in form after view detail",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "same id in form after view detail"
+        },
+        {
+          "ancestorTitles": [
+            "View a provider"
+          ],
+          "duration": 3174,
+          "failureMessages": [],
+          "fullName": "View a provider has history import",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "has history import"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 1,
+      "numPassingTests": 6,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1593156217764,
+        "start": 1593156196136
       },
       "skipped": false,
       "snapshot": {
@@ -56,7 +216,7 @@
           "ancestorTitles": [
             "Add a provider"
           ],
-          "duration": 759,
+          "duration": 1906,
           "failureMessages": [],
           "fullName": "Add a provider redirect to the \"create\" route when click button \"Thêm mới\"",
           "location": null,
@@ -68,13 +228,185 @@
           "ancestorTitles": [
             "Add a provider"
           ],
-          "duration": 528,
+          "duration": 1452,
           "failureMessages": [],
           "fullName": "Add a provider inputs are empty when the \"create\" route first loaded",
           "location": null,
           "numPassingAsserts": 0,
           "status": "passed",
           "title": "inputs are empty when the \"create\" route first loaded"
+        },
+        {
+          "ancestorTitles": [
+            "Add a provider"
+          ],
+          "duration": 2238,
+          "failureMessages": [],
+          "fullName": "Add a provider case provider name has number",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "case provider name has number"
+        },
+        {
+          "ancestorTitles": [
+            "Add a provider"
+          ],
+          "duration": 2437,
+          "failureMessages": [],
+          "fullName": "Add a provider phone wrong format",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "phone wrong format"
+        },
+        {
+          "ancestorTitles": [
+            "Add a provider"
+          ],
+          "duration": 2458,
+          "failureMessages": [],
+          "fullName": "Add a provider empty provider address",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "empty provider address"
+        },
+        {
+          "ancestorTitles": [
+            "Add a provider"
+          ],
+          "duration": 1985,
+          "failureMessages": [],
+          "fullName": "Add a provider refresh button",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "refresh button"
+        },
+        {
+          "ancestorTitles": [
+            "Add a provider"
+          ],
+          "duration": 1748,
+          "failureMessages": [
+            "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n    at Object.<anonymous> (/home/loia5tqd001/Desktop/sPhoneTesting/test/providers-page/add-a-provider.spec.js:82:21)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"
+          ],
+          "fullName": "Add a provider submit a provider",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "failed",
+          "title": "submit a provider"
+        }
+      ],
+      "failureMessage": "\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mAdd a provider › submit a provider\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\n    Expected: \u001b[32mtrue\u001b[39m\n    Received: \u001b[31mfalse\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 80 | \u001b[39m      address\u001b[33m:\u001b[39m \u001b[32m'Thôn 2'\u001b[39m\u001b[33m,\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 81 | \u001b[39m    })\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[2m\u001b[39m\u001b[90m 82 | \u001b[39m    expect(success)\u001b[33m.\u001b[39mtoBe(\u001b[36mtrue\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    | \u001b[39m                    \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 83 | \u001b[39m  })\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 84 | \u001b[39m})\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 85 | \u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous> (\u001b[22m\u001b[2m\u001b[0m\u001b[36mtest/providers-page/add-a-provider.spec.js\u001b[39m\u001b[0m\u001b[2m:82:21)\u001b[22m\u001b[2m\u001b[22m\n"
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 7,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1593156229272,
+        "start": 1593156196118
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "unmatched": 0,
+        "updated": 0,
+        "uncheckedKeys": []
+      },
+      "testFilePath": "/home/loia5tqd001/Desktop/sPhoneTesting/test/providers-page/edit-a-provider.spec.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Edit a provider"
+          ],
+          "duration": 4170,
+          "failureMessages": [],
+          "fullName": "Edit a provider same id in url after click edit",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "same id in url after click edit"
+        },
+        {
+          "ancestorTitles": [
+            "Edit a provider"
+          ],
+          "duration": 3279,
+          "failureMessages": [],
+          "fullName": "Edit a provider same id in form after click edit",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "same id in form after click edit"
+        },
+        {
+          "ancestorTitles": [
+            "Edit a provider"
+          ],
+          "duration": 3113,
+          "failureMessages": [],
+          "fullName": "Edit a provider not have history import",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "not have history import"
+        },
+        {
+          "ancestorTitles": [
+            "Edit a provider"
+          ],
+          "duration": 4869,
+          "failureMessages": [],
+          "fullName": "Edit a provider add more to address",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "add more to address"
+        },
+        {
+          "ancestorTitles": [
+            "Edit a provider"
+          ],
+          "duration": 3082,
+          "failureMessages": [],
+          "fullName": "Edit a provider can't add more to phone",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "can't add more to phone"
+        },
+        {
+          "ancestorTitles": [
+            "Edit a provider"
+          ],
+          "duration": 4112,
+          "failureMessages": [],
+          "fullName": "Edit a provider add more to provider name",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "add more to provider name"
+        },
+        {
+          "ancestorTitles": [
+            "Edit a provider"
+          ],
+          "duration": 2964,
+          "failureMessages": [],
+          "fullName": "Edit a provider Can't edit provider id anyway",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Can't edit provider id anyway"
         }
       ],
       "failureMessage": null
